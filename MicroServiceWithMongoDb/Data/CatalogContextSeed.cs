@@ -19,7 +19,7 @@ namespace MicroServiceWithMongoDb.Data
             return new List<Product>()
             {
                 new Product(){
-               Id = "62645ds23a1s55",
+               Id = "653266sds854789d6s325478",
                Name = "Iphone X",
                Description = "Lorem ipsum dolor sit  amet",
                Image = "procuct-1.png",
@@ -27,7 +27,7 @@ namespace MicroServiceWithMongoDb.Data
                Category = "Smart Phone"
             },
                 new Product(){
-               Id = "135123ds3dasa",
+               Id = "653266sds854789d6s325875",
                Name = "Galaxy S20",
                Description = "Lorem ipsum dolor sit  amet",
                Image = "procuct-2.png",
@@ -35,7 +35,7 @@ namespace MicroServiceWithMongoDb.Data
                Category = "Smart Phone"
             },
                 new Product(){
-               Id = "135123ds3dasa",
+               Id = "653266sds854789d6s326354",
                Name = "ZenFone",
                Description = "Lorem ipsum dolor sit  amet",
                Image = "procuct-3.png",

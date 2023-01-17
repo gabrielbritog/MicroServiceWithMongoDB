@@ -14,6 +14,7 @@ namespace MicroServiceWithMongoDb.Data
                 ("DatabaseSettings:DatabaseName"));
             Products = database.GetCollection<Product>(configuration.GetValue<string>
                 ("DatabaseSettings:CollectionName"));
+            CatalogContextSeed.Seed(Products);
         }
         public IMongoCollection<Product> Products { get; }
 
