@@ -7,11 +7,10 @@ namespace MicroServiceWithMongoDb.Data
     {
         public static void Seed(IMongoCollection<Product> productCollection)
         {
-            bool existProduct = productCollection.Find(p => true).Any();
-            if (!existProduct)
-            {
+           
+            
                 productCollection.InsertManyAsync(GetMyProducts());
-            }
+            
         }
 
         private static IEnumerable<Product> GetMyProducts()
